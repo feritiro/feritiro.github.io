@@ -1,62 +1,165 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Fernando Nishimura — Gameplay Programmer focused on gameplay systems and Unreal Engine.">
-<meta name="theme-color" content="#101114">
-<title>Fernando Nishimura | Gameplay Programmer</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css">
-<script src="js/main.js" defer></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Gameplay programming portfolio of Feritiro — Unreal Engine, C++, gameplay architecture and systems.">
+  <meta name="theme-color" content="#101114">
+  <title>Feritiro — Gameplay Programmer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+  <script src="js/main.js" defer></script>
 </head>
 <body>
-<header class="header">
-  <a class="brand" href="#top"><b>FN</b> FERNANDO NISHIMURA</a>
-  <button class="menu-toggle" aria-expanded="false" aria-controls="nav">MENU</button>
-  <nav id="nav"><a href="#projects">Projects</a><a href="#expertise">Expertise</a><a href="#about">About</a><a href="#contact">Contact ↗</a></nav>
-</header>
-<main id="top">
-<section class="hero wrap">
-  <div>
-    <p class="eyebrow"><i></i> GAMEPLAY PROGRAMMER · PORTFOLIO</p>
-    <h1>Building gameplay<br><em>systems that feel</em><br>good to play.</h1>
-    <p class="lede">I’m Fernando, a gameplay programmer interested in responsive mechanics, gameplay architecture, and the systems that connect them.</p>
-    <div class="actions"><a class="button" href="#projects">Explore projects ↓</a><a class="plain-link" href="#contact">Get in touch ↗</a></div>
-  </div>
-  <aside class="focus-panel">
-    <div class="panel-meta"><span>FOCUS / 001</span><span>GAMEPLAY</span></div>
-    <div class="orbit"><i></i></div>
-    <div><p class="eyebrow">CORE INTERESTS</p><ul><li>Gameplay systems</li><li>Combat & interaction</li><li>System architecture</li><li>Unreal Engine / C++</li></ul></div>
-  </aside>
-  <span class="index">01 — 07</span>
-</section>
-<section class="wrap section" id="projects">
-  <div class="section-head"><div><p class="eyebrow">SELECTED WORK / 01</p><h2>Featured projects<em>.</em></h2></div><p class="lede small">A selection of game projects, with an emphasis on gameplay implementation and technical problem-solving.</p></div>
-  <article class="featured project">
-    <div class="art arpg"><span>IN DEVELOPMENT / 01</span><b>TOP-DOWN ACTION RPG</b></div>
-    <div class="project-copy"><p class="tag">UNREAL ENGINE 5 · C++ · GAMEPLAY SYSTEMS</p><h3>Top-down Action RPG</h3><p>A gameplay-focused ARPG prototype built around modular systems and coordinated gameplay logic. Currently in development.</p><div class="chips"><span>Gameplay Architecture</span><span>Gameplay Tags</span><span>Async UI Loading</span></div><a class="plain-link" href="projects/arpg.html">Explore technical breakdown ↗</a></div>
-  </article>
-  <div class="project-grid">
-    <article class="project"><div class="art jrpg"><span>GAMEPLAY DEMO / 02</span><b>SEAMLESS BATTLE TRANSITION</b></div><div class="project-copy"><p class="tag">UNREAL ENGINE 5 · JRPG</p><h3>JRPG Battle Demo</h3><p>A battle prototype exploring seamless transitions and position-aware area-of-effect abilities.</p><a class="plain-link" href="projects/jrpg.html">Explore project ↗</a></div></article>
-    <article class="project"><div class="art fire"><span>PUBLISHED ON STEAM / 03</span><b>FIRE PATH</b></div><div class="project-copy"><p class="tag">GODOT · GAME DEVELOPMENT</p><h3>Fire Path</h3><p>A game project developed as an early step in learning game programming and published on Steam.</p><a class="plain-link" href="https://store.steampowered.com/app/2848160/Fire_Path/" target="_blank" rel="noreferrer">View on Steam ↗</a></div></article>
-  </div>
-</section>
-<section class="expertise" id="expertise"><div class="wrap expertise-grid"><div><p class="eyebrow">WHAT I WORK ON / 02</p><h2>Gameplay is more<br>than a feature<em>.</em></h2></div><div class="expertise-list">
-  <article><b>01</b><div><h3>Gameplay Systems</h3><p>Implementing interconnected mechanics, state handling, and reusable gameplay components.</p></div></article>
-  <article><b>02</b><div><h3>Gameplay Architecture</h3><p>Structuring systems so specialized components cooperate while keeping responsibilities clear.</p></div></article>
-  <article><b>03</b><div><h3>Player Feedback & UI</h3><p>Connecting gameplay state to player-facing feedback, including tag-driven asynchronous UI loading.</p></div></article>
-</div></div></section>
-<section class="wrap section">
-  <div class="section-head"><div><p class="eyebrow">TOOLS & EXPERIMENTS / 03</p><h2>Other projects<em>.</em></h2></div><p class="lede small">Additional software projects demonstrating interests beyond game runtime systems.</p></div>
-  <div class="other-grid">
-    <article class="other-card"><p class="tag">AUTODESK MAYA · AUDIO</p><h3>Auto Lip Sync</h3><p>A tool for generating lip-sync facial keyframes from audio, with Japanese and English support.</p><a href="https://github.com/feritiro/Japanese_Auto_Lip_Sync_Maya" target="_blank" rel="noreferrer">GitHub ↗</a><a href="https://youtu.be/XVH0S4Lm_3M" target="_blank" rel="noreferrer">Demo ↗</a></article>
-    <article class="other-card"><p class="tag">ANDROID · LANGUAGE LEARNING</p><h3>JP Notify</h3><p>An Android app that displays Japanese kanji and meanings as notification-based flashcards, with selectable JLPT levels.</p><a href="https://github.com/feritiro/JapaneseDictionary-Notification-AndroidStudio" target="_blank" rel="noreferrer">GitHub ↗</a></article>
-  </div>
-</section>
-<section class="wrap about" id="about"><div><p class="eyebrow">A LITTLE ABOUT ME / 04</p><h2>Engineering mindset.<br><em>Gameplay focus.</em></h2></div><div><p>My background is in Electronic Engineering and software development. I’m focused on applying that technical foundation to game programming, especially gameplay systems and interactive experiences.</p><p>This portfolio is a work in progress. Project pages will document implementation details, design decisions, and lessons learned.</p><a class="plain-link" href="https://github.com/feritiro" target="_blank" rel="noreferrer">Visit my GitHub ↗</a></div></section>
-<section class="contact" id="contact"><div class="wrap"><p class="eyebrow">HAVE A PROJECT IN MIND? / 05</p><h2>Let’s build something<br><em>worth playing.</em></h2><p>For opportunities and professional inquiries, feel free to reach out.</p><a href="https://github.com/feritiro" target="_blank" rel="noreferrer">GitHub ↗</a></div></section>
-</main>
-<footer class="wrap footer"><a class="brand" href="#top"><b>FN</b> FERNANDO NISHIMURA</a><span>© <span id="year"></span> · Built with purpose.</span><a href="#top">Back to top ↑</a></footer>
-</body></html>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="wordmark" href="index.html" aria-label="Feritiro home">FERITIRO<span>.</span></a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Toggle navigation"><span></span><span></span></button>
+      <nav id="primary-nav" class="primary-nav" aria-label="Main navigation">
+        <a href="#work">Work</a>
+        <a href="#systems">Systems</a>
+        <a href="#engineering">Engineering</a>
+        <a href="#contact">Contact</a>
+        <a class="nav-resume" href="assets/Fernando_Nishimura_Resume.pdf" target="_blank" rel="noreferrer">Resume ↗</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero section">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> GAMEPLAY PROGRAMMER · UNREAL ENGINE 5</p>
+          <h1>Building gameplay systems<br><span class="muted">with clear architecture.</span></h1>
+          <p class="hero-lede">I’m a gameplay-focused programmer working with Unreal Engine and C++, interested in combat systems, gameplay architecture, and tools that make complex game behavior easier to build and maintain.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#work">Explore my work <span>↓</span></a>
+            <a class="text-link" href="https://github.com/feritiro" target="_blank" rel="noreferrer">GitHub profile ↗</a>
+          </div>
+          <div class="hero-meta">
+            <div><span class="meta-label">FOCUS</span><strong>Gameplay & systems</strong></div>
+            <div><span class="meta-label">ENGINE</span><strong>Unreal Engine 5</strong></div>
+            <div><span class="meta-label">LOCATION</span><strong>Japan</strong></div>
+          </div>
+        </div>
+        <aside class="hero-aside">
+          <div class="aside-topline"><span>01 / SELECTED WORK</span><span>2026</span></div>
+          <div class="hero-art art-arpg">
+            <div class="art-grid"></div>
+            <div class="art-crosshair">+</div>
+            <div class="art-label"><span>IN DEVELOPMENT</span><strong>TOP-DOWN<br> ACTION RPG</strong></div>
+            <div class="art-index">UE5 / C++</div>
+          </div>
+          <p class="aside-caption">Independent project · Gameplay architecture and systems</p>
+          <a class="arrow-link" href="projects/arpg.html">View technical breakdown <span>↗</span></a>
+        </aside>
+      </div>
+    </section>
+
+    <section id="work" class="section work-section">
+      <div class="container">
+        <div class="section-heading">
+          <div><p class="eyebrow">02 / PROJECTS</p><h2>Selected work<span class="accent">.</span></h2></div>
+          <p class="section-intro">A selection of game projects and tools. Each case study focuses on my contribution, implementation choices, and available evidence.</p>
+        </div>
+
+        <article class="project-feature">
+          <a class="project-visual visual-arpg" href="projects/arpg.html" aria-label="Open Top-down ARPG case study">
+            <span class="visual-kicker">FEATURED PROJECT / 01</span>
+            <span class="visual-title">TOP-DOWN<br>ARPG</span>
+            <span class="visual-bottom">UNREAL ENGINE 5 <i>·</i> C++</span>
+            <span class="visual-orbit"></span>
+          </a>
+          <div class="project-info">
+            <p class="eyebrow">INDEPENDENT · IN DEVELOPMENT</p>
+            <h3>Gameplay architecture for an action RPG</h3>
+            <p>My current portfolio project. The work focuses on coordinating specialized gameplay systems through a central Dungeon Master architecture and building tag-driven asynchronous UI loading.</p>
+            <ul class="tag-list"><li>Gameplay architecture</li><li>Gameplay Ability System</li><li>Asynchronous loading</li></ul>
+            <a class="arrow-link" href="projects/arpg.html">Read technical case study <span>↗</span></a>
+          </div>
+        </article>
+
+        <div class="project-grid">
+          <article class="project-card">
+            <a class="card-visual visual-jrpg" href="projects/jrpg.html" aria-label="Open JRPG battle demo case study">
+              <span class="visual-kicker">PROJECT / 02</span><span class="visual-title">JRPG<br>BATTLE DEMO</span><span class="visual-bottom">UNREAL ENGINE 5</span>
+            </a>
+            <div class="card-body"><p class="eyebrow">GAMEPLAY SYSTEMS</p><h3>Position-based battle logic</h3><p>Seamless transition into battle and area-of-effect behavior based on characters’ physical positions in the world.</p><a class="arrow-link" href="projects/jrpg.html">View project <span>↗</span></a></div>
+          </article>
+          <article class="project-card">
+            <a class="card-visual visual-fire" href="projects/fire-path.html" aria-label="Open Fire Path project">
+              <span class="visual-kicker">PROJECT / 03</span><span class="visual-title">FIRE<br>PATH</span><span class="visual-bottom">PUBLISHED ON STEAM</span>
+            </a>
+            <div class="card-body"><p class="eyebrow">PUBLISHED GAME</p><h3>From prototype to release</h3><p>A game project developed in Godot and published on Steam. The first game I made while learning game programming.</p><a class="arrow-link" href="projects/fire-path.html">View project <span>↗</span></a></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="systems" class="section systems-section">
+      <div class="container">
+        <div class="section-heading">
+          <div><p class="eyebrow">03 / TECHNICAL FOCUS</p><h2>Systems I work on<span class="accent">.</span></h2></div>
+          <p class="section-intro">I want reviewers to see the actual engineering behind a feature—not just a list of technologies.</p>
+        </div>
+        <div class="systems-list">
+          <a class="system-row" href="projects/arpg.html#dungeon-master"><span class="system-number">01</span><span class="system-name">Modular gameplay architecture</span><span class="system-detail">Central coordinator · Specialized subsystems</span><span class="system-arrow">↗</span></a>
+          <a class="system-row" href="projects/arpg.html#ui-loading"><span class="system-number">02</span><span class="system-name">Tag-driven asynchronous UI loading</span><span class="system-detail">Gameplay Tags · Asset loading</span><span class="system-arrow">↗</span></a>
+          <a class="system-row" href="projects/jrpg.html"><span class="system-number">03</span><span class="system-name">Position-based combat logic</span><span class="system-detail">World-space positions · AoE targeting</span><span class="system-arrow">↗</span></a>
+          <a class="system-row" href="projects/jrpg.html"><span class="system-number">04</span><span class="system-name">Seamless battle transitions</span><span class="system-detail">Unreal Engine 5 · Battle flow</span><span class="system-arrow">↗</span></a>
+        </div>
+        <p class="note">The detailed breakdowns are being expanded alongside the projects. Implementation details and code samples will be added only where they can be accurately demonstrated.</p>
+      </div>
+    </section>
+
+    <section id="engineering" class="section engineering-section">
+      <div class="container">
+        <div class="section-heading">
+          <div><p class="eyebrow">04 / ENGINEERING</p><h2>Tools & technical projects<span class="accent">.</span></h2></div>
+          <p class="section-intro">Additional projects that demonstrate software development outside core gameplay implementation.</p>
+        </div>
+        <div class="engineering-grid">
+          <article class="engineering-card">
+            <p class="eyebrow">AUTODESK MAYA · AUDIO</p><h3>Auto Lip Sync</h3>
+            <p>Tooling to generate facial lip-sync keyframes from audio, with support for Japanese and English workflows.</p>
+            <div class="link-stack"><a href="https://github.com/feritiro/Japanese_Auto_Lip_Sync_Maya" target="_blank" rel="noreferrer">Source repository ↗</a><a href="https://youtu.be/XVH0S4Lm_3M" target="_blank" rel="noreferrer">Video demonstration ↗</a></div>
+          </article>
+          <article class="engineering-card">
+            <p class="eyebrow">ANDROID · OFFLINE DATA</p><h3>JP Notify</h3>
+            <p>An offline Japanese vocabulary notification app with selectable JLPT levels and a local SQLite dictionary.</p>
+            <div class="link-stack"><a href="https://github.com/feritiro/JapaneseDictionary-Notification-AndroidStudio" target="_blank" rel="noreferrer">Source repository ↗</a></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section experience-section">
+      <div class="container experience-layout">
+        <div><p class="eyebrow">05 / BACKGROUND</p><h2>Engineering<br>experience<span class="accent">.</span></h2></div>
+        <div class="experience-content">
+          <div class="experience-item"><span class="experience-date">2024</span><div><h3>Progress Rail / Caterpillar</h3><p>Software development involving hardware flash-memory writing, a sensor calibration interface, and Python-based process automation.</p></div></div>
+          <div class="experience-item"><span class="experience-date">2023</span><div><h3>FKN</h3><p>Software development across COBOL ERP modifications, Android applications, and PHP web services.</p></div></div>
+          <div class="experience-item"><span class="experience-date">2019—2025</span><div><h3>Electronic Engineering · UTFPR</h3><p>Undergraduate degree in Electronic Engineering, Brazil.</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="container contact-inner">
+        <div><p class="eyebrow">06 / CONTACT</p><h2>Let’s talk<br>about gameplay<span class="accent">.</span></h2></div>
+        <div class="contact-links">
+          <a href="https://github.com/feritiro" target="_blank" rel="noreferrer">GitHub <span>↗</span></a>
+          <a href="https://store.steampowered.com/app/2848160/Fire_Path" target="_blank" rel="noreferrer">Fire Path on Steam <span>↗</span></a>
+          <a href="mailto:">Email <span>↗</span></a>
+          <p class="note">Replace the email link with your professional email before publishing.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-inner"><span>© <span id="year"></span> FERITIRO</span><span>Gameplay programming portfolio</span><a href="#top">Back to top ↑</a></div></footer>
+</body>
+</html>
