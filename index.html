@@ -1,14 +1,62 @@
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Game Developer Portfolio</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Fernando Nishimura — Gameplay Programmer focused on gameplay systems and Unreal Engine.">
+<meta name="theme-color" content="#101114">
+<title>Fernando Nishimura | Gameplay Programmer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<script src="js/main.js" defer></script>
 </head>
 <body>
-    <h1>Portfolio</h1>
-    <p>Website is under construction.</p>
-</body>
-</html>
-
+<header class="header">
+  <a class="brand" href="#top"><b>FN</b> FERNANDO NISHIMURA</a>
+  <button class="menu-toggle" aria-expanded="false" aria-controls="nav">MENU</button>
+  <nav id="nav"><a href="#projects">Projects</a><a href="#expertise">Expertise</a><a href="#about">About</a><a href="#contact">Contact ↗</a></nav>
+</header>
+<main id="top">
+<section class="hero wrap">
+  <div>
+    <p class="eyebrow"><i></i> GAMEPLAY PROGRAMMER · PORTFOLIO</p>
+    <h1>Building gameplay<br><em>systems that feel</em><br>good to play.</h1>
+    <p class="lede">I’m Fernando, a gameplay programmer interested in responsive mechanics, gameplay architecture, and the systems that connect them.</p>
+    <div class="actions"><a class="button" href="#projects">Explore projects ↓</a><a class="plain-link" href="#contact">Get in touch ↗</a></div>
+  </div>
+  <aside class="focus-panel">
+    <div class="panel-meta"><span>FOCUS / 001</span><span>GAMEPLAY</span></div>
+    <div class="orbit"><i></i></div>
+    <div><p class="eyebrow">CORE INTERESTS</p><ul><li>Gameplay systems</li><li>Combat & interaction</li><li>System architecture</li><li>Unreal Engine / C++</li></ul></div>
+  </aside>
+  <span class="index">01 — 07</span>
+</section>
+<section class="wrap section" id="projects">
+  <div class="section-head"><div><p class="eyebrow">SELECTED WORK / 01</p><h2>Featured projects<em>.</em></h2></div><p class="lede small">A selection of game projects, with an emphasis on gameplay implementation and technical problem-solving.</p></div>
+  <article class="featured project">
+    <div class="art arpg"><span>IN DEVELOPMENT / 01</span><b>TOP-DOWN ACTION RPG</b></div>
+    <div class="project-copy"><p class="tag">UNREAL ENGINE 5 · C++ · GAMEPLAY SYSTEMS</p><h3>Top-down Action RPG</h3><p>A gameplay-focused ARPG prototype built around modular systems and coordinated gameplay logic. Currently in development.</p><div class="chips"><span>Gameplay Architecture</span><span>Gameplay Tags</span><span>Async UI Loading</span></div><a class="plain-link" href="projects/arpg.html">Explore technical breakdown ↗</a></div>
+  </article>
+  <div class="project-grid">
+    <article class="project"><div class="art jrpg"><span>GAMEPLAY DEMO / 02</span><b>SEAMLESS BATTLE TRANSITION</b></div><div class="project-copy"><p class="tag">UNREAL ENGINE 5 · JRPG</p><h3>JRPG Battle Demo</h3><p>A battle prototype exploring seamless transitions and position-aware area-of-effect abilities.</p><a class="plain-link" href="projects/jrpg.html">Explore project ↗</a></div></article>
+    <article class="project"><div class="art fire"><span>PUBLISHED ON STEAM / 03</span><b>FIRE PATH</b></div><div class="project-copy"><p class="tag">GODOT · GAME DEVELOPMENT</p><h3>Fire Path</h3><p>A game project developed as an early step in learning game programming and published on Steam.</p><a class="plain-link" href="https://store.steampowered.com/app/2848160/Fire_Path/" target="_blank" rel="noreferrer">View on Steam ↗</a></div></article>
+  </div>
+</section>
+<section class="expertise" id="expertise"><div class="wrap expertise-grid"><div><p class="eyebrow">WHAT I WORK ON / 02</p><h2>Gameplay is more<br>than a feature<em>.</em></h2></div><div class="expertise-list">
+  <article><b>01</b><div><h3>Gameplay Systems</h3><p>Implementing interconnected mechanics, state handling, and reusable gameplay components.</p></div></article>
+  <article><b>02</b><div><h3>Gameplay Architecture</h3><p>Structuring systems so specialized components cooperate while keeping responsibilities clear.</p></div></article>
+  <article><b>03</b><div><h3>Player Feedback & UI</h3><p>Connecting gameplay state to player-facing feedback, including tag-driven asynchronous UI loading.</p></div></article>
+</div></div></section>
+<section class="wrap section">
+  <div class="section-head"><div><p class="eyebrow">TOOLS & EXPERIMENTS / 03</p><h2>Other projects<em>.</em></h2></div><p class="lede small">Additional software projects demonstrating interests beyond game runtime systems.</p></div>
+  <div class="other-grid">
+    <article class="other-card"><p class="tag">AUTODESK MAYA · AUDIO</p><h3>Auto Lip Sync</h3><p>A tool for generating lip-sync facial keyframes from audio, with Japanese and English support.</p><a href="https://github.com/feritiro/Japanese_Auto_Lip_Sync_Maya" target="_blank" rel="noreferrer">GitHub ↗</a><a href="https://youtu.be/XVH0S4Lm_3M" target="_blank" rel="noreferrer">Demo ↗</a></article>
+    <article class="other-card"><p class="tag">ANDROID · LANGUAGE LEARNING</p><h3>JP Notify</h3><p>An Android app that displays Japanese kanji and meanings as notification-based flashcards, with selectable JLPT levels.</p><a href="https://github.com/feritiro/JapaneseDictionary-Notification-AndroidStudio" target="_blank" rel="noreferrer">GitHub ↗</a></article>
+  </div>
+</section>
+<section class="wrap about" id="about"><div><p class="eyebrow">A LITTLE ABOUT ME / 04</p><h2>Engineering mindset.<br><em>Gameplay focus.</em></h2></div><div><p>My background is in Electronic Engineering and software development. I’m focused on applying that technical foundation to game programming, especially gameplay systems and interactive experiences.</p><p>This portfolio is a work in progress. Project pages will document implementation details, design decisions, and lessons learned.</p><a class="plain-link" href="https://github.com/feritiro" target="_blank" rel="noreferrer">Visit my GitHub ↗</a></div></section>
+<section class="contact" id="contact"><div class="wrap"><p class="eyebrow">HAVE A PROJECT IN MIND? / 05</p><h2>Let’s build something<br><em>worth playing.</em></h2><p>For opportunities and professional inquiries, feel free to reach out.</p><a href="https://github.com/feritiro" target="_blank" rel="noreferrer">GitHub ↗</a></div></section>
+</main>
+<footer class="wrap footer"><a class="brand" href="#top"><b>FN</b> FERNANDO NISHIMURA</a><span>© <span id="year"></span> · Built with purpose.</span><a href="#top">Back to top ↑</a></footer>
+</body></html>
